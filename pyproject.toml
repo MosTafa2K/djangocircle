@@ -1,0 +1,15 @@
+[project]
+name = "djangoci"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "mostafa2k", email = "m2kappswindows8.1@gmail.com"},
+]
+dependencies = ["django>=5.1.6", "djangorestframework>=3.15.2", "pytest>=8.3.4", "pytest-django>=4.10.0"]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
